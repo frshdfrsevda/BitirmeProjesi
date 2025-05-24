@@ -1,0 +1,94 @@
+/* Footer Styling */
+.footer {
+  background-color: #eceaea;
+  color: #333; /* Changed text color for readability */
+  padding: 50px 20px 20px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Added shadow to footer */
+}
+
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerLogo {
+  flex: 1 1 300px;
+  margin-bottom: 30px;
+}
+
+.footerLogo img {
+  width: 50px; /* or any size you prefer */
+  height: auto; /* keeps the aspect ratio */
+  border-radius: 50px;
+}
+
+.footerLogo h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333; /* Darkened the title for readability */
+}
+
+.footerLogo p {
+  font-size: 16px;
+  color: #4a4a4a; /* Darkened text for better contrast */
+}
+
+.footerLinks {
+  flex: 1 1 200px;
+  margin-bottom: 30px;
+}
+
+.footerLinks h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333; /* Darkened the heading */
+}
+
+.footerLinks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerLinks li {
+  margin-bottom: 10px;
+}
+
+.footerLinks a {
+  color: #007bff; /* Changed color to a blue shade */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerLinks a:hover {
+  color: #ffffff;
+}
+
+.footerContact {
+  flex: 1 1 300px;
+  margin-bottom: 30px;
+}
+
+.footerContact h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333; /* Darkened the heading */
+}
+
+.footerContact p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #4a4a4a; /* Darkened text for contrast */
+}
+
+.footerBottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid #e0ffe8;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #d0ffd8;
+}

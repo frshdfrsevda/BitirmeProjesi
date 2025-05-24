@@ -1,0 +1,121 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Logo Section */
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width:auto;
+  }
+  .logo img{
+    width: 50px; /* or any size you prefer */
+    height: auto; /* keeps the aspect ratio */
+    border-radius: 50px;
+  }
+
+  .logo a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Navigation Links */
+  .navlist {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .navItem:hover {
+    color: #1bad4e;
+  }
+  
+  /* Signup Button */
+  .signupButton {
+    padding: 0.5rem 1rem;
+    background-color:#1bad4e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .signupButton:hover {
+    background-color: #1bad4e;
+  }
+  
+  /* Profile Section */
+  .profileWrapper {
+    position: relative;
+  }
+  
+  .profileDropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #1bad4e;
+    margin-right: 8px;
+  }
+  
+  .dropdownIcon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* Dropdown Menu */
+  .dropdownMenu {
+    display: block;
+    position: absolute;
+    top: 120%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 1rem;
+    z-index: 10;
+    min-width: 150px;
+  }
+  
+ 
+  
+  .dropdownItem {
+    padding: 0.5rem 0;
+    color: #333;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .dropdownItem:hover {
+    color: #1bad4e;
+  }
+  
